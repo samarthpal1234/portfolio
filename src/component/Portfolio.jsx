@@ -33,8 +33,8 @@ const Portfolio = () => {
       imgSrc: "tailwind.png"
     },
     { 
-      name: "Git",
-      imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      name: "PHP",
+      imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
     }
   ];
 

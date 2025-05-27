@@ -26,14 +26,26 @@ const Experience = () => {
       title: "Web Development Project",
       company: "University Project",
       period: "2025",
-      description: "Hospital Management system - Developed a comprehensive healthcare management solution with patient records, appointment scheduling, and medical history tracking.",
+      description: "Hospital Management system - Developed a comprehensive healthcare management solution with patient records, appointment scheduling, and medical history tracking",
+
       skills: ["React", "Node.js", "Express", "MongoDB"]
     },
     {
       title: "Technook Internship",
       company: "Technook",
       period: "2024 Jun - 2024 Sep",
-      description: "Contributed to multiple web development projects, focusing on frontend development and UI/UX improvements. Collaborated with senior developers and learned industry best practices.",
+      description: (<p>Contributed to multiple web development projects, focusing on frontend development and UI/UX improvements. Collaborated with senior developers and learned industry best practices.{ ' '}
+         <a 
+            href="https://cert.diceid.com/cid/s7yHrW92IG/download?format=image" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-purple-400 hover:text-purple-300 underline transition-colors duration-200"
+          >
+          Downlod certificate
+          </a>
+           </p>
+      ),
+      
       skills: ["JavaScript", "Documentation", "Git", "Collaboration"]
     }
   ];

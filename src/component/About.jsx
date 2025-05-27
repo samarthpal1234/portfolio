@@ -22,8 +22,8 @@ const About = () => {
   const skills = [
     { category: "Frontend", items: ["React", "HTML5", "CSS3", "JavaScript", "TailwindCSS"] },
     { category: "Backend", items: ["Node.js", "Express", "MongoDB", "Python"] },
-    { category: "Tools", items: ["Git", "VS Code", "Postman", "Figma"] },
-    { category: "Soft Skills", items: ["Problem Solving", "Team Leadership", "Communication", "Time Management"] }
+    { category: "Tools", items: ["Git", "VS Code", "Postman"] },
+    { category: "Soft Skills", items: ["Problem Solving", "Communication", "Time Management","E-sports"] }
   ];
 
   
@@ -65,7 +65,7 @@ const About = () => {
               <div className="relative bg-gray-800/50 p-6 rounded-xl backdrop-blur-sm border border-gray-700/50">
                 <h2 className="text-2xl font-mono font-bold text-white mb-4">Who I Am</h2>
                 <p className="text-gray-300 leading-relaxed">
-                  I'm a dedicated full-stack developer with a passion for building innovative web solutions. Based in Uttarakhand, India, I specialize in creating responsive and user-friendly applications that solve real-world problems.
+Hi, I'm Samarth Pal, a passionate and curious Front-End Engineer with hands-on experience in building interactive, modern web applications using React, Node.js, MongoDB, and PHP. I'm currently completing my B.Tech in Computer Science Engineering, and I’ve gained practical knowledge through internships, personal projects, and freelance work.
                 </p>
               </div>
             </div>
